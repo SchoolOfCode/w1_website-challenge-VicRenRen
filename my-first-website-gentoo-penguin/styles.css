@@ -1,5 +1,39 @@
+.navbar {
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    right: 0;
+    width: 20%; 
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(0, 24, 51);
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: rgb(81, 181, 221);
+    color: whitesmoke;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
 h1 {
+    position:absolute;
+    float: right;
     text-align: center;
+    right: 20%;
+    top: 10%;
     color: whitesmoke;
     font-size: 70px;
     font-weight: bold;
@@ -7,6 +41,18 @@ h1 {
     text-shadow: -6px 2px 12px rgb(0, 24, 51)
 }
 h2 {
+    position:absolute;
+    top: 70%;
+    float: center;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    text-shadow: -6px 2px 12px rgb(0, 24, 51)
+}
+h3 {
+    float: right;
     text-align: center;
     color: whitesmoke;
     font-size: 50px;
@@ -26,6 +72,7 @@ body {
     margin: 0 auto !important;
 }
 .penguin-friends {
+    float: left;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -33,9 +80,10 @@ body {
     border-radius: 10px;
     width:600px;
    height:auto;
-   border: 5px solid rgb(255, 255, 255);
+   border: 10px solid rgb(255, 255, 255);
   }
 .penguin-pics {
+    float: left;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -46,6 +94,7 @@ body {
    border: 5px solid rgb(255, 255, 255);
   }
 p {
+    float: right;
     text-align: center;
     color: black;
     font-size: large;
@@ -69,6 +118,7 @@ p {
     filter:drop-shadow(8px 8px 10px rgb(81, 181, 221))
 }
 footer {
+    float: left;
     text-align: left;
     font-size: 20px;
     color: whitesmoke;
