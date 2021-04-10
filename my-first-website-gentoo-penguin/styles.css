@@ -29,11 +29,7 @@
   }
 
 h1 {
-    position:absolute;
-    float: right;
     text-align: center;
-    right: 20%;
-    top: 10%;
     color: whitesmoke;
     font-size: 70px;
     font-weight: bold;
@@ -41,9 +37,6 @@ h1 {
     text-shadow: -6px 2px 12px rgb(0, 24, 51)
 }
 h2 {
-    position:absolute;
-    top: 70%;
-    float: center;
     text-align: center;
     color: whitesmoke;
     font-size: 50px;
@@ -52,7 +45,6 @@ h2 {
     text-shadow: -6px 2px 12px rgb(0, 24, 51)
 }
 h3 {
-    float: right;
     text-align: center;
     color: whitesmoke;
     font-size: 50px;
@@ -72,7 +64,6 @@ body {
     margin: 0 auto !important;
 }
 .penguin-friends {
-    float: left;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -83,7 +74,6 @@ body {
    border: 10px solid rgb(255, 255, 255);
   }
 .penguin-pics {
-    float: left;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -94,7 +84,6 @@ body {
    border: 5px solid rgb(255, 255, 255);
   }
 p {
-    float: right;
     text-align: center;
     color: black;
     font-size: large;
@@ -118,7 +107,6 @@ p {
     filter:drop-shadow(8px 8px 10px rgb(81, 181, 221))
 }
 footer {
-    float: left;
     text-align: left;
     font-size: 20px;
     color: whitesmoke;
