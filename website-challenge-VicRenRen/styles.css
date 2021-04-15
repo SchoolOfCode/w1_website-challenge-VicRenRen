@@ -1,0 +1,205 @@
+.navbar {
+    overflow: hidden;
+    background-image: url("images-merlin-jones-website/merlin-navbar-background.png");
+    background-size: cover;
+    position: fixed; /* Set the navbar to fixed position */
+    z-index:10;
+    top: 0; /* Position the navbar at the top of the page */
+    right: 0;
+    width: 100%; 
+  }
+  
+  /* Links inside the navbar */
+.navbar a {
+    font-family: "Courier New", monospace;
+    float: left;
+    display: block;
+    color: greenyellow;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: green;
+    color: whitesmoke;
+}
+
+/* all images */
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Home section */
+
+.home-text {
+    font-family: "Courier New", monospace;
+    letter-spacing: 5px;
+    text-align: center;
+    color: greenyellow;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* About section */
+.about {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.about-text {
+    font-family: "Courier New", monospace;
+    letter-spacing: 5px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.about-image {
+position: absolute;
+display: block;
+border-radius: 15px 50px 30px;
+}
+.about-background {
+position: relative;
+display: block;
+width: 100%;
+height: auto;
+}
+
+/* Instuments Section */
+.instruments {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.instruments-inside {
+  position: absolute;
+  width: 68%;
+  top: 49.5%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+
+.inframe {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.instruments-inside:hover .overlay {
+  opacity: 1;
+}
+
+.instruments-text {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Food section */
+.food {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.curry-image {
+    position: absolute;
+    width: auto;
+    height: 95%;
+}
+.food-text {
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+border-radius: 15px 50px;
+background: whitesmoke;
+padding: 20px;
+width: 1000px;
+height: auto;
+/*  */
+text-align: center;
+color: whitesmoke;
+font-size: 70px;
+font-weight: bold;
+font-family: 'Courier New', monospace;
+text-shadow: -6px 2px 12px rgb(0, 24, 51)
+}
+
+/* Mushroom section */
+.mushroom {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.mushroom-text {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: relative;
+}
+.instagram {
+    margin: 5px;
+    display: inline-block;
+    flex: 33.33%;
+    padding: 5px;
+    
+}
+/* Footer */
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.footer-text {
+    font-family: "Courier New", monospace;
+    letter-spacing: 5px;
+    text-align: center;
+    color: darkgreen;
+    font-size: 40px;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* background */
+body {
+    background-image: url(images-merlin-jones-website/merlin-main-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

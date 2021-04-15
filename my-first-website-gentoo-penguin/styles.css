@@ -1,0 +1,114 @@
+.navbar {
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    right: 0;
+    width: 20%; 
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(0, 24, 51);
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: rgb(81, 181, 221);
+    color: whitesmoke;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    text-shadow: -6px 2px 12px rgb(0, 24, 51)
+}
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    text-shadow: -6px 2px 12px rgb(0, 24, 51)
+}
+h3 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    text-shadow: -6px 2px 12px rgb(0, 24, 51)
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1593179961641-2858ad3c55ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body { 
+    width: 1280px;
+    height: 1024px;
+    margin: 0 auto !important;
+}
+.penguin-friends {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    width:600px;
+   height:auto;
+   border: 10px solid rgb(255, 255, 255);
+  }
+.penguin-pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    width:1000px;
+   height:auto;
+   border: 5px solid rgb(255, 255, 255);
+  }
+p {
+    text-align: center;
+    color: black;
+    font-size: large;
+    font-variant: small-caps;
+    font-family: 'Courier New', monospace;
+}
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p {
+  border-radius: 15px 50px;
+  background: whitesmoke;
+  padding: 20px;
+  width: 1000px;
+  height: auto;  
+}
+p {
+    filter:drop-shadow(8px 8px 10px rgb(81, 181, 221))
+}
+footer {
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Courier New', monospace;
+}
